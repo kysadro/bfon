@@ -6,10 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["file storage", "bson"],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@kysadro"
+    "registry": "https://npm.pkg.github.com/"
   },
   "author": "kysadro",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kysadro/bfon.git"
+  },
+  "homepage": "https://github.com/kysadro/bfon/wiki/Documentation"
 }
