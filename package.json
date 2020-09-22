@@ -7,9 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["file storage", "bson"],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "author": "kysadro",
   "license": "MIT",
   "repository": {
