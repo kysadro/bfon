@@ -1,12 +1,12 @@
 {
   "name": "bfon",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Better-Forever Object Notation",
   "main": "bson.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["file storage", "bson"],
+  "keywords": ["file storage", "bfon"],
   "author": "kysadro",
   "license": "MIT",
   "repository": {

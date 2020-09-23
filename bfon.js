@@ -11,7 +11,7 @@ module.exports = {
                     return { meta: "//", name: "", value: text};
                 },
                 Rule: (name = "", value = false) => {
-                    return `RULE ${name.replace(' ', '_')} ${value}`;
+                    return { meta: "RULE", name: name.replace(" ", "_"), value: value};
                 },
                 Element: (meta, name, value) => {
                     if (options.defaultMetas) {  // If default metas are on
@@ -130,7 +130,10 @@ module.exports = {
                     let parsed = "";
                     for (let i = 0; i < data.length; ++i) {
                         if (data[i].meta.startsWith("//")) {
-                            parsed += `// ${data[i].value}`;
+                            parsed += `// ${data[i].value}\n`;
+                            continue;
+                        } else if (data[i].meta === "RULE") {
+                            parsed += `RULE ${data[i].name} ${data[i].value}\n`;
                             continue;
                         }
                         parsed += `${data[i].meta} ${data[i].name} = ${data[i].value}` + "\n";
