@@ -1,6 +1,6 @@
 {
   "name": "bfon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Better-Forever Object Notation",
   "main": "bfon.js",
   "scripts": {
