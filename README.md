@@ -8,7 +8,7 @@ Example of a **.bfon** file:
     int integerExample = 123  
     obj objectExample = {"name": "Jon","age": 70}
     arr arrayExample = <array>
-	    Hello World,
+	    Hello World
 	    123
 	</array>
 
